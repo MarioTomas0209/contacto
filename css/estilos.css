@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%; /* 1rem = 10px */
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.sombra{
+    box-shadow: 7px 6px 0px 0px rgba(112,112,112,0.63);
+    box-shadow: 7px 6px 0px 0px rgba(112,112,112,0.63);
+    box-shadow: 7px 6px 0px 0px rgba(112,112,112,0.63); 
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.formulario{
+    background-color: #757575;
+    width: min(60rem, 100%);
+    margin: 0 auto;
+}
+.formulario fieldset{
+    border: none;
+}
