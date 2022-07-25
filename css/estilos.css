@@ -36,6 +36,13 @@ body{
     background-color: #757575;
     width: min(60rem, 100%);
     margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+}
+.formulario legend{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;    
 }
 .formulario fieldset{
     border: none;
